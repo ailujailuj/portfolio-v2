@@ -1,0 +1,54 @@
+/* ProjectItem Component Styles */
+.project {
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background: var(--bg-light, #f8f9fa);
+  border-radius: var(--border-radius, 8px);
+  border-left: 4px solid var(--primary-color, #2c5aa0);
+}
+
+.projectContent {
+  h3 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: var(--text-color, #333333);
+  }
+}
+
+.projectTech {
+  color: var(--primary-color, #2c5aa0);
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.projectDescription {
+  ul {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+  }
+
+  li {
+    margin-bottom: 0.5rem;
+    color: var(--text-light, #666666);
+    line-height: 1.6;
+  }
+}
+
+.projectLink {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: var(--primary-color, #2c5aa0);
+  color: white;
+  text-decoration: none;
+  border-radius: var(--border-radius, 8px);
+  font-weight: 500;
+  transition: var(--transition, all 0.3s ease);
+
+  &:hover {
+    background: var(--secondary-color, #1e3a6f);
+    transform: translateY(-1px);
+  }
+}

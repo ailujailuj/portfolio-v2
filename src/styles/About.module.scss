@@ -1,0 +1,43 @@
+/* About Component Styles */
+.aboutSection {
+  padding: 2rem 0;
+
+  h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    color: var(--text-color, #333333);
+    border-bottom: 2px solid var(--border-color, #e5e5e5);
+    padding-bottom: 0.5rem;
+  }
+}
+
+.aboutContent {
+  max-width: 800px;
+
+  p {
+    margin-bottom: 1.5rem;
+    line-height: 1.7;
+    color: var(--text-light, #666666);
+  }
+}
+
+.downloadCv {
+  margin-top: 2rem;
+}
+
+.cvButton {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: var(--primary-color, #2c5aa0);
+  color: white;
+  text-decoration: none;
+  border-radius: var(--border-radius, 8px);
+  font-weight: 600;
+  transition: var(--transition, all 0.3s ease);
+
+  &:hover {
+    background: var(--secondary-color, #1e3a6f);
+    transform: translateY(-2px);
+  }
+}

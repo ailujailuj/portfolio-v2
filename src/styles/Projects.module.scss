@@ -1,0 +1,13 @@
+/* Projects Component Styles */
+.projectsSection {
+  padding: 2rem 0;
+
+  h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    color: var(--text-color, #333333);
+    border-bottom: 2px solid var(--border-color, #e5e5e5);
+    padding-bottom: 0.5rem;
+  }
+}
